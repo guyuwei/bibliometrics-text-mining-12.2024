@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据处理平台</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f9;
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .jumbotron {
+            background-image: url('background.jpg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 5rem 0;
+        }
+        .card {
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">数据处理平台</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">数据收集</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">WOS文件解析</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">数据库描述</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">文本数据处理</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <h1 class="display-4">欢迎来到数据处理平台！</h1>
+        <p class="lead">这里可以处理和分析您的数据，提供强大的工具来支持您的研究和分析需求。</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">数据收集</h5>
+                        <p class="card-text">轻松收集和整合您的数据，支持多种格式。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">WOS文件解析</h5>
+                        <p class="card-text">解析WOS文件，提取有价值的信息，助力您的研究。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">数据库描述</h5>
+                        <p class="card-text">详细描述您的数据库，便于管理和查询。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

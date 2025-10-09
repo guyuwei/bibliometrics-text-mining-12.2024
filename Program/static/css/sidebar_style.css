@@ -1,0 +1,363 @@
+/* 侧栏样式优化 - 更宽的侧栏和透明导航栏 */
+
+/* 侧栏宽度调整 - 更宽 */
+.css-1d391kg {
+    width: 450px !important;
+    min-width: 450px !important;
+    max-width: 500px !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 0.5rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* 主内容区域调整 */
+.main .block-container {
+    margin-left: 490px !important;
+    max-width: calc(100% - 490px) !important;
+    padding-left: 2rem !important;
+}
+
+/* 导航按钮样式 - 透明背景 */
+.css-1d391kg .stButton > button,
+.css-1d391kg button,
+.css-1d391kg .stButton button {
+    background: transparent !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: 12px !important;
+    padding: 1rem 1.5rem !important;
+    margin: 0.5rem 0 !important;
+    transition: all 0.3s ease !important;
+    backdrop-filter: blur(10px) !important;
+    width: 100% !important;
+    text-align: left !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+}
+
+/* 所有侧栏按钮文字颜色 */
+.css-1d391kg * {
+    color: white !important;
+}
+
+/* 侧栏内所有文字元素 */
+.css-1d391kg span,
+.css-1d391kg div,
+.css-1d391kg p,
+.css-1d391kg label,
+.css-1d391kg .stMarkdown {
+    color: white !important;
+}
+
+/* 导航按钮悬停效果 */
+.css-1d391kg .stButton > button:hover {
+    background: rgba(255, 255, 255, 0.15) !important;
+    transform: translateX(8px) !important;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* 侧栏标题样式 */
+.css-1d391kg h1,
+.css-1d391kg h2,
+.css-1d391kg h3 {
+    color: white !important;
+    text-align: center !important;
+    margin-bottom: 1.5rem !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
+}
+
+/* 侧栏文本样式 */
+.css-1d391kg p,
+.css-1d391kg div,
+.css-1d391kg span,
+.css-1d391kg label,
+.css-1d391kg .stMarkdown,
+.css-1d391kg .stSelectbox,
+.css-1d391kg .stSelectbox > div,
+.css-1d391kg .stSelectbox > div > div,
+.css-1d391kg .stSelectbox > div > div > div {
+    color: white !important;
+    background: transparent !important;
+}
+
+/* 选择框样式 */
+.css-1d391kg .stSelectbox > div > div > div {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    color: white !important;
+}
+
+/* 音频播放器样式 */
+.css-1d391kg .stAudio {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px !important;
+    padding: 1rem !important;
+    margin: 1rem 0 !important;
+}
+
+/* 确保所有文字都是白色 */
+.css-1d391kg * {
+    color: white !important;
+}
+
+/* 特殊处理黑色文字 */
+.css-1d391kg [style*="color: black"],
+.css-1d391kg [style*="color: #000"],
+.css-1d391kg [style*="color: rgb(0,0,0)"],
+.css-1d391kg [style*="color: #333"],
+.css-1d391kg [style*="color: #666"],
+.css-1d391kg [style*="color: #999"] {
+    color: white !important;
+}
+
+/* 强制覆盖所有可能的黑色文字 */
+.css-1d391kg .stSelectbox label,
+.css-1d391kg .stSelectbox > div > div > div,
+.css-1d391kg .stSelectbox > div > div > div > div,
+.css-1d391kg .stSelectbox > div > div > div > div > div {
+    color: white !important;
+    background: transparent !important;
+}
+
+/* 覆盖Streamlit默认样式 */
+.css-1d391kg .stSelectbox > div > div > div > div > div {
+    color: white !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+/* 确保所有文字都是白色 */
+.css-1d391kg * {
+    color: white !important;
+}
+
+/* 覆盖内联样式 */
+.css-1d391kg [style] {
+    color: white !important;
+}
+
+/* 强制覆盖所有按钮文字 */
+.css-1d391kg button,
+.css-1d391kg .stButton,
+.css-1d391kg .stButton > button,
+.css-1d391kg .stButton > button > div,
+.css-1d391kg .stButton > button > div > div {
+    color: white !important;
+}
+
+/* 覆盖所有可能的文字元素 */
+.css-1d391kg span,
+.css-1d391kg div,
+.css-1d391kg p,
+.css-1d391kg label,
+.css-1d391kg .stMarkdown,
+.css-1d391kg .stSelectbox,
+.css-1d391kg .stSelectbox > div,
+.css-1d391kg .stSelectbox > div > div,
+.css-1d391kg .stSelectbox > div > div > div,
+.css-1d391kg .stSelectbox > div > div > div > div,
+.css-1d391kg .stSelectbox > div > div > div > div > div {
+    color: white !important;
+}
+
+/* 强制覆盖所有背景色 */
+.css-1d391kg * {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* 确保侧栏背景保持渐变 */
+.css-1d391kg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+/* 覆盖所有可能的黑色背景 */
+.css-1d391kg [style*="background: black"],
+.css-1d391kg [style*="background: #000"],
+.css-1d391kg [style*="background: rgb(0,0,0)"],
+.css-1d391kg [style*="background-color: black"],
+.css-1d391kg [style*="background-color: #000"],
+.css-1d391kg [style*="background-color: rgb(0,0,0)"] {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* 覆盖所有可能的深色背景 */
+.css-1d391kg [style*="background: #333"],
+.css-1d391kg [style*="background: #666"],
+.css-1d391kg [style*="background: #999"],
+.css-1d391kg [style*="background-color: #333"],
+.css-1d391kg [style*="background-color: #666"],
+.css-1d391kg [style*="background-color: #999"] {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* 文件上传器样式 */
+.css-1d391kg .stFileUploader > div {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 2px dashed rgba(255, 255, 255, 0.3) !important;
+    border-radius: 10px !important;
+    padding: 1rem !important;
+    margin: 1rem 0 !important;
+    transition: all 0.3s ease !important;
+}
+
+.css-1d391kg .stFileUploader > div:hover {
+    background: rgba(255, 255, 255, 0.15) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* 音频播放器样式 */
+.css-1d391kg .stAudio {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px !important;
+    padding: 1rem !important;
+    margin: 1rem 0 !important;
+}
+
+/* 分隔线样式 */
+.css-1d391kg hr {
+    border: none !important;
+    height: 1px !important;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent) !important;
+    margin: 1.5rem 0 !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 1200px) {
+    .css-1d391kg {
+        width: 320px !important;
+        min-width: 320px !important;
+    }
+    
+    .main .block-container {
+        margin-left: 360px !important;
+        max-width: calc(100% - 360px) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .css-1d391kg {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+    }
+    
+    .main .block-container {
+        margin-left: 0 !important;
+        max-width: 100% !important;
+        padding-left: 1rem !important;
+    }
+}
+
+/* 侧栏滚动条样式 */
+.css-1d391kg::-webkit-scrollbar {
+    width: 6px;
+}
+
+.css-1d391kg::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.css-1d391kg::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
+.css-1d391kg::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* 侧栏内容区域 */
+.sidebar-content {
+    padding: 1rem 0;
+}
+
+.sidebar-section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-section h4 {
+    color: white !important;
+    margin-bottom: 1rem !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+}
+
+/* 按钮组样式 */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.button-group .stButton {
+    margin: 0 !important;
+}
+
+/* 图标样式 */
+.sidebar-icon {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    display: inline-block;
+}
+
+/* 状态指示器 */
+.status-indicator {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.status-online {
+    background: #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+.status-offline {
+    background: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+/* 工具提示样式 */
+.sidebar-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.sidebar-tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.sidebar-tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

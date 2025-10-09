@@ -1,0 +1,262 @@
+/* 增强组件样式 - 表格和选项布局美化 */
+
+/* 表格美化 */
+.stDataFrame {
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    box-shadow: 0 8px 32px rgba(181, 168, 202, 0.15) !important;
+    border: 1px solid rgba(181, 168, 202, 0.2) !important;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.9) 100%) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+.stDataFrame table {
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    width: 100% !important;
+}
+
+.stDataFrame thead th {
+    background: linear-gradient(135deg, #C0D6EA 0%, #B5A8CA 100%) !important;
+    color: #2C3E50 !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    padding: 15px 12px !important;
+    border: none !important;
+    text-align: center !important;
+    letter-spacing: 0.3px !important;
+}
+
+.stDataFrame tbody td {
+    background: rgba(255, 255, 255, 0.8) !important;
+    color: #4A3C5C !important;
+    font-size: 0.9rem !important;
+    padding: 12px !important;
+    border-bottom: 1px solid rgba(181, 168, 202, 0.1) !important;
+    transition: all 0.2s ease !important;
+}
+
+.stDataFrame tbody tr:hover td {
+    background: rgba(192, 214, 234, 0.1) !important;
+    transform: translateY(-1px) !important;
+}
+
+.stDataFrame tbody tr:nth-child(even) td {
+    background: rgba(248, 250, 252, 0.6) !important;
+}
+
+/* 选择框美化 */
+.stSelectbox > div > div {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.9) 100%) !important;
+    border: 1px solid rgba(181, 168, 202, 0.3) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 16px rgba(181, 168, 202, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: all 0.3s ease !important;
+}
+
+.stSelectbox > div > div:hover {
+    border-color: #B5A8CA !important;
+    box-shadow: 0 6px 20px rgba(181, 168, 202, 0.2) !important;
+    transform: translateY(-2px) !important;
+}
+
+.stSelectbox > div > div > div {
+    color: #2C3E50 !important;
+    font-weight: 500 !important;
+    font-size: 0.95rem !important;
+}
+
+/* 多选框美化 */
+.stMultiSelect > div > div {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.9) 100%) !important;
+    border: 1px solid rgba(181, 168, 202, 0.3) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 16px rgba(181, 168, 202, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: all 0.3s ease !important;
+}
+
+.stMultiSelect > div > div:hover {
+    border-color: #B5A8CA !important;
+    box-shadow: 0 6px 20px rgba(181, 168, 202, 0.2) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* 滑块美化 */
+.stSlider > div > div > div {
+    background: linear-gradient(90deg, #C0D6EA 0%, #B5A8CA 100%) !important;
+    border-radius: 10px !important;
+    height: 8px !important;
+}
+
+.stSlider > div > div > div > div {
+    background: #2C3E50 !important;
+    border-radius: 50% !important;
+    box-shadow: 0 4px 12px rgba(44, 62, 80, 0.3) !important;
+}
+
+/* 复选框美化 */
+.stCheckbox > div > label {
+    color: #2C3E50 !important;
+    font-weight: 500 !important;
+    font-size: 0.95rem !important;
+}
+
+.stCheckbox > div > label > div {
+    background: linear-gradient(135deg, #C0D6EA 0%, #B5A8CA 100%) !important;
+    border: 2px solid rgba(181, 168, 202, 0.3) !important;
+    border-radius: 6px !important;
+    box-shadow: 0 2px 8px rgba(181, 168, 202, 0.2) !important;
+}
+
+/* 文本输入框美化 */
+.stTextInput > div > div > input {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.9) 100%) !important;
+    border: 1px solid rgba(181, 168, 202, 0.3) !important;
+    border-radius: 12px !important;
+    color: #2C3E50 !important;
+    font-size: 0.95rem !important;
+    padding: 12px 16px !important;
+    box-shadow: 0 4px 16px rgba(181, 168, 202, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: all 0.3s ease !important;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: #B5A8CA !important;
+    box-shadow: 0 6px 20px rgba(181, 168, 202, 0.2) !important;
+    outline: none !important;
+}
+
+/* 文本区域美化 */
+.stTextArea > div > div > textarea {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.9) 100%) !important;
+    border: 1px solid rgba(181, 168, 202, 0.3) !important;
+    border-radius: 12px !important;
+    color: #2C3E50 !important;
+    font-size: 0.95rem !important;
+    padding: 12px 16px !important;
+    box-shadow: 0 4px 16px rgba(181, 168, 202, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: all 0.3s ease !important;
+    resize: vertical !important;
+}
+
+.stTextArea > div > div > textarea:focus {
+    border-color: #B5A8CA !important;
+    box-shadow: 0 6px 20px rgba(181, 168, 202, 0.2) !important;
+    outline: none !important;
+}
+
+/* 文件上传美化 */
+.stFileUploader > div {
+    background: linear-gradient(135deg, rgba(192, 214, 234, 0.1) 0%, rgba(181, 168, 202, 0.1) 100%) !important;
+    border: 2px dashed rgba(181, 168, 202, 0.4) !important;
+    border-radius: 15px !important;
+    padding: 30px !important;
+    text-align: center !important;
+    transition: all 0.3s ease !important;
+}
+
+.stFileUploader > div:hover {
+    border-color: #B5A8CA !important;
+    background: linear-gradient(135deg, rgba(192, 214, 234, 0.2) 0%, rgba(181, 168, 202, 0.2) 100%) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* 指标卡片美化 */
+.stMetric {
+    background: linear-gradient(135deg, rgba(192, 214, 234, 0.08) 0%, rgba(181, 168, 202, 0.08) 100%) !important;
+    border: 1px solid rgba(181, 168, 202, 0.2) !important;
+    border-radius: 15px !important;
+    padding: 20px !important;
+    box-shadow: 0 8px 32px rgba(181, 168, 202, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: all 0.3s ease !important;
+}
+
+.stMetric:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 12px 40px rgba(181, 168, 202, 0.15) !important;
+}
+
+.stMetric > div {
+    color: #2C3E50 !important;
+    font-weight: 600 !important;
+}
+
+.stMetric > div > div {
+    color: #5A4B6B !important;
+    font-size: 0.9rem !important;
+}
+
+/* 列布局美化 */
+.stColumns {
+    gap: 20px !important;
+}
+
+/* 警告框美化 */
+.stAlert {
+    border-radius: 12px !important;
+    border: none !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+.stAlert[data-testid="alert"] {
+    background: linear-gradient(135deg, rgba(255, 193, 7, 0.1) 0%, rgba(255, 193, 7, 0.05) 100%) !important;
+    border-left: 4px solid #ffc107 !important;
+}
+
+.stAlert[data-testid="error"] {
+    background: linear-gradient(135deg, rgba(220, 53, 69, 0.1) 0%, rgba(220, 53, 69, 0.05) 100%) !important;
+    border-left: 4px solid #dc3545 !important;
+}
+
+.stAlert[data-testid="success"] {
+    background: linear-gradient(135deg, rgba(40, 167, 69, 0.1) 0%, rgba(40, 167, 69, 0.05) 100%) !important;
+    border-left: 4px solid #28a745 !important;
+}
+
+.stAlert[data-testid="info"] {
+    background: linear-gradient(135deg, rgba(13, 202, 240, 0.1) 0%, rgba(13, 202, 240, 0.05) 100%) !important;
+    border-left: 4px solid #0dcaf0 !important;
+}
+
+/* 进度条美化 */
+.stProgress > div > div > div {
+    background: linear-gradient(90deg, #C0D6EA 0%, #B5A8CA 100%) !important;
+    border-radius: 10px !important;
+    height: 8px !important;
+}
+
+/* 侧边栏美化 */
+.stSidebar {
+    background: linear-gradient(180deg, #C0D6EA 0%, #B5A8CA 100%) !important;
+    border-right: 3px solid rgba(224, 187, 208, 0.3) !important;
+    box-shadow: 2px 0 20px rgba(181, 168, 202, 0.2) !important;
+}
+
+/* 主容器美化 */
+.main .block-container {
+    padding: 2rem 1rem !important;
+    max-width: 1200px !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .stDataFrame {
+        font-size: 0.8rem !important;
+    }
+    
+    .stDataFrame thead th {
+        padding: 10px 8px !important;
+        font-size: 0.85rem !important;
+    }
+    
+    .stDataFrame tbody td {
+        padding: 8px !important;
+        font-size: 0.8rem !important;
+    }
+}

@@ -1,0 +1,116 @@
+/* 导航栏按钮颜色修复 */
+
+/* 修复侧边栏按钮颜色 */
+section[data-testid='stSidebar'] .stButton > button {
+    background: linear-gradient(45deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 8px 16px !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3) !important;
+}
+
+section[data-testid='stSidebar'] .stButton > button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4) !important;
+    background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%) !important;
+}
+
+/* 修复主页面按钮颜色 */
+.stButton > button {
+    background: linear-gradient(45deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3) !important;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4) !important;
+    background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%) !important;
+}
+
+/* 修复主要按钮样式 */
+.stButton > button[kind="primary"] {
+    background: linear-gradient(45deg, #ff6b6b 0%, #ee5a24 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 12px 24px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3) !important;
+}
+
+.stButton > button[kind="primary"]:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 16px rgba(255, 107, 107, 0.4) !important;
+    background: linear-gradient(45deg, #ff8a80 0%, #ff7043 100%) !important;
+}
+
+/* 修复文件上传按钮 */
+.stFileUploader > div > button {
+    background: linear-gradient(45deg, #4ecdc4 0%, #44a08d 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+    font-weight: 500 !important;
+}
+
+/* 修复选择框样式 */
+.stSelectbox > div > div {
+    background: white !important;
+    border: 2px solid #667eea !important;
+    border-radius: 8px !important;
+}
+
+/* 修复多选框样式 */
+.stMultiSelect > div > div {
+    background: white !important;
+    border: 2px solid #667eea !important;
+    border-radius: 8px !important;
+}
+
+/* 修复输入框样式 */
+.stTextInput > div > div > input {
+    border: 2px solid #667eea !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+}
+
+/* 修复滑块样式 */
+.stSlider > div > div > div {
+    background: linear-gradient(45deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+/* 修复复选框样式 */
+.stCheckbox > div > div {
+    background: linear-gradient(45deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+/* 修复单选框样式 */
+.stRadio > div > div {
+    background: linear-gradient(45deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+/* 确保所有按钮都有正确的颜色 */
+button {
+    color: white !important;
+}
+
+/* 修复链接样式 */
+a {
+    color: #667eea !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #4facfe !important;
+    text-decoration: underline !important;
+}
